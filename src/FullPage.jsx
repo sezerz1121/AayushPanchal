@@ -9,6 +9,7 @@ import Contact from './Contact'
 import Footer from './component/Footer'
 
 const FullPage = () => {
+  console.log(window.innerWidth + 'x' + window.innerHeight);
   return (
    <>
     <Home />
