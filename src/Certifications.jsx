@@ -4,13 +4,13 @@ import CertificationsCard from './component/CertificationsCard';
 
 const Certifications = () => {
   const colors = ['#7E8EF1', '#DDF2D8', '#F5FF9C'];
-  const pdfUrls = [
-    '../public/Python and Djongo Framework.jpg',
-    '../public/boss.png',
-    '../public/Data Visualization with Python.jpg',
-    '../public/Microsoft Power BI.jpg',
-    '../public/Hadoop Certificate.jpg',
-    '../public/Flutter SQLite database.jpg',
+    const pdfUrls = [
+    './Python and Djongo Framework.jpg',
+    './boss.png',
+    './Data Visualization with Python.jpg',
+    './Microsoft Power BI.jpg',
+    './Hadoop Certificate.jpg',
+    './Flutter SQLite database.jpg',
   ];
   const dates = [
     'June 18, 2023',
