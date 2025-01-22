@@ -4,6 +4,7 @@ import ParticlesComponent from './component/ParticlesComponent';
 import Navbar from './component/Navbar';
 
 const Home = () => {
+  console.log(window.innerWidth + 'x' + window.innerHeight);
   const badgeOneRef = useRef(null);
   const badgeTwoRef = useRef(null);
   const contactButtonRef = useRef(null);
@@ -107,7 +108,7 @@ const Home = () => {
             alt="thumbsup"
           />
           </div>
-          <img className='Apbhai'src="./JBP_0237 1.png" alt="main" />
+          <img className='Apbhai'src="./ApBhaiNewImage.png" alt="main" />
           <div><img
             ref={bulbImageRef}
             className="bulbImage"
