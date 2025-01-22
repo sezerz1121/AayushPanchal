@@ -269,8 +269,11 @@ body {
 }
 .tumbsupImage
 {
+    position: relative;
     height: 30%;
     width: auto;
+    z-index: 2;
+    top: 20%;
 }
 .Apbhai
 {
