@@ -78,26 +78,23 @@ const About = () => {
 
         <div className="AboutDetails">
           <div className="AboutmeImage" ref={imageRef}>
-            <img src="./JBP_0238_cc 1.png" alt="About me" />
+            <img className="AboutAp" src="./JBP_0238_cc 1.png" alt="About me" />
             <img className="aboutBadge" src="./image 31.png" alt="About me" />
             <img className="aboutData" src="./Group.png" alt="About me" />
           </div>
           <div className="AboutInfo">
-            <img
+           
+            
+            <div className="aboutInfoLong">
+            
+              <div className="aboutInfoLongNumber">15+</div>
+              <div className="aboutInfoLongText">Real world projects</div>
+              <img
               className="AboutInfoStarImage"
               src="openart-image_afEG2ZpM_1736609229256_raw 1.png"
               alt="Star Image"
               ref={starImageRef}
             />
-            <img
-              className="AboutInfoBicepImage"
-              src="openart-5379e89d-67bf-4f10-9928-f82a23259015 1.png"
-              alt="Bicep Image"
-              ref={bicepImageRef}
-            />
-            <div className="aboutInfoLong">
-              <div className="aboutInfoLongNumber">15+</div>
-              <div className="aboutInfoLongText">Real world projects</div>
             </div>
             <div className="aboutShortParentDiv">
               <div className="aboutInfoShort">
@@ -112,6 +109,12 @@ const About = () => {
             <div className="aboutInfoLong">
               <div className="aboutInfoLongNumber">20+</div>
               <div className="aboutInfoLongText">In-Demand Skills</div>
+              <img
+              className="AboutInfoBicepImage"
+              src="openart-5379e89d-67bf-4f10-9928-f82a23259015 1.png"
+              alt="Bicep Image"
+              ref={bicepImageRef}
+            />
             </div>
           </div>
         </div>
