@@ -139,7 +139,7 @@ body {
     flex-direction: column;
     justify-content: start;
     margin-left: 20%;
-    padding-top: 20%;
+    padding-top: 10%;
 }
 .Title-Text-Div {
     display: flex;
@@ -149,7 +149,7 @@ body {
 }
 .TitleText
 {
-    font-size: 4rem;
+    font-size: 380%;
     font-weight: bold;
     color: #ABDF9E;
     text-decoration: none;
@@ -200,7 +200,7 @@ body {
 .descriptionText
 {
     width: 419px;
-    font-size: 1rem;
+    font-size: 100%ccd;
     color: #000;
     text-decoration: none;
     font-family: "Schibsted Grotesk", serif;
@@ -261,25 +261,33 @@ body {
 {
     position: relative;
     display: flex;
+    height: 100%;
 }
 .thumbsupImageDiv
 {
-    padding-top: 20%;
+    padding-top: 30%;
 }
-
-
+.tumbsupImage
+{
+    height: 30%;
+    width: auto;
+}
 .Apbhai
 {
     position: relative;
-    bottom: -75px;
+    bottom: -15%;
+    right: 15%;
     z-index: 1;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
 }
 .bulbImage {
-position: relative;
-    right: 200px;
+    position: relative;
+    top: 20%;
+    right: 150%;
     z-index: 1;
+    height: 20%;
+    width: auto;
     
 }
 .purpleBar
@@ -315,7 +323,7 @@ position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    height: 170vh;
     width: 100%;
 }
 .ExperienceShowCaseMiddleLine
@@ -358,6 +366,7 @@ position: relative;
 }
 .AboutParent
 {
+    margin-top: 10%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -372,13 +381,13 @@ position: relative;
     font-family: "Schibsted Grotesk", serif;
     font-size: 4rem;
     font-weight: 500;
-    width: 90%;
+    width: 100%;
     display: flex;
 }
 .AboutDetails
 {
-    margin-top: 1%;
-    width: 80%;
+    margin-top: 4%;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -400,14 +409,17 @@ position: relative;
 }
 .AboutInfo
 {
+
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    gap: 2%;
+    justify-content: center;
 }
 .aboutInfoLong
 {
+    position: relative;
     width: 515px;
     height: 214px;
     background-color: #DDF2D8;
@@ -433,11 +445,12 @@ position: relative;
 }
 .aboutInfoLongNumber
 {
+    position: relative;
     font-size: 4rem;
     font-weight: 600;
     color: #000;
     font-family: "Schibsted Grotesk", serif;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 10%;
 }
 .aboutInfoLongText
@@ -470,16 +483,18 @@ position: relative;
 
 }
 .AboutInfoStarImage {
-    position: absolute;
-    top: 120px; /* Adjust to overlap */
-    right: 270px; /* Adjust to overlap */
+    position: relative;
+    top: -110%; /* Adjust to overlap */
+    right: -75%; /* Adjust to overlap */
     z-index: 1;
+    height: 80%;
+    width: auto;
   }
   .AboutInfoBicepImage
   {
-    position: absolute;
-    top: 720px; /* Adjust to overlap */
-    right: 770px; /* Adjust to overlap */
+    position: relative;
+    top: -80%; /* Adjust to overlap */
+    right: 35%; /* Adjust to overlap */
     z-index: 1;
   }
 .aboutData
@@ -496,6 +511,7 @@ position: relative;
 }
 .ProjectParent
 {
+    
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -548,6 +564,7 @@ position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 .ProjectCardParent
 {
@@ -879,153 +896,234 @@ display: none;
     justify-content: space-between;
 }
 
-/*custom  moniter*/
-@media screen and (max-width: 1536px) and (max-height: 776px) {
-    .Apbhai
+/*small moniter*/
+@media screen and (max-width: 1600px) and (max-height: 900px) {
+    .AboutmeImage
     {
-        position: relative;
-        bottom: -75px;
-        z-index: 1;
-        height: 100%;
-        width: 100%;
-        right: 200px;
+        width: 375px;
+        height: 596px;
+        background-color: #ABDF9E;
+        border-radius: 32px;
     }
-    .bulbImage {
-        position: relative;
-            right: 400px;
-            z-index: 1;
-            
-        }
-        .AboutDetails
+    .AboutAp
     {
-        margin-top: 1%;
         width: 100%;
-        height: 100vh;
+        height: 100%;
+    }
+    .aboutBadge
+    {
+        position: relative;
+        top: -120%;
+        right: -60%;
+        z-index: 2;
+        height: 40%;
+    }
+    .aboutData
+    {
+        z-index: 3;
+        position: relative;
+        top: -75%;
+        right: -42%;
+        
+    }
+    .aboutInfoLong
+    {
+        position: relative;
+        width: 515px;
+        height: 190px;
+        background-color: #DDF2D8;
+        border-radius: 32px;
+    }
+    .aboutInfoShort
+    {
+        width: 241px;
+        height: 190px;
+        background-color: #DDF2D8;
+        border-radius: 32px;
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
-    .AboutInfoStarImage {
-        position: absolute;
-        top: 110px; /* Adjust to overlap */
-        right: 30px; /* Adjust to overlap */
-        z-index: 1;
-      }
-      .AboutInfoBicepImage
-      {
-        position: absolute;
-        top: 670px; /* Adjust to overlap */
-        right: 540px; /* Adjust to overlap */
-        z-index: 1;
-      }
-      .ProjectParent
-      {
-        margin-top: 10%;
-      }
-      .ProjectShowcase
+    .ProjectParent
     {
-        margin-left: 0%;
+        margin-top: 15%;
+    }
+    .ProjectShowcase
+    {
+        margin-left: 2%;
         margin-top: 5%;
         width: 100%;
         height: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        gap: 24px;
+        gap: 5%;
     }
-    .CertificationsParent {
-        margin-top: 10%;
-        height: 200vh;
-      }
-      .ServiceParent
-      {
-        height: 200vh;
-      }
-      .contactDivButtonsDiv
-      {
-        width: 80%;
-      }
-  }
-
-
-
-/*small moniter*/
-@media screen and (max-width: 1440px) and (max-height: 900px) {
-    .Apbhai
-{
-    position: relative;
-    bottom: -75px;
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    right: 200px;
-}
-.bulbImage {
-    position: relative;
-        right: 400px;
-        z-index: 1;
-        
+    .ProjectCardParent
+    {
+        width: 508px;
+        height: 352px;
+        border-radius: 16px;
+        background-color: #7E8EF1;
     }
-    .AboutDetails
-{
-    margin-top: 1%;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.AboutInfoStarImage {
-    position: absolute;
-    top: 110px; /* Adjust to overlap */
-    right: 30px; /* Adjust to overlap */
-    z-index: 1;
-  }
-  .AboutInfoBicepImage
-  {
-    position: absolute;
-    top: 670px; /* Adjust to overlap */
-    right: 540px; /* Adjust to overlap */
-    z-index: 1;
-  }
-  .ProjectParent
-  {
-    margin-top: 10%;
-  }
-  .ProjectShowcase
-{
-    margin-left: 0%;
-    margin-top: 5%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 24px;
-}
-.CertificationsParent {
-    height: 200vh;
-  }
-  .ServiceParent
-  {
-    height: 200vh;
-  }
-  .contactDivButtonsDiv
-  {
-    width: 80%;
-  }
+    .ProjectCardTitle
+    {
+        font-family: "Schibsted Grotesk", serif;
+        color: #232323;
+        font-size: 2rem;
+        font-weight: 500;
+        padding-top: 10%;
+        padding-left: 6%;
+    }
+    .ProjectCardDescription
+    {
+        font-family: "Schibsted Grotesk", serif;
+        color: #232323;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-top: 5%;
+        padding-left: 6%;
+    }
+    .ProjectCardDescriptionText
+    {
+        font-family: "Schibsted Grotesk", serif;
+        color: #F5FF9C;
+        text-align: justify;
+        width: 440px;
+        font-size: .75rem;
+        font-weight: 500;
+        padding-top: 5%;
+        padding-left: 6%;
+    }
 
-}
-/*1280x604 moniter*/
-@media screen and (max-width: 1280px) and (max-height: 604px) {
-    .home {
-        height: 100vh;
-        width: 100%;
+    .ProjectTecnologyCapsules
+    {
+        padding-top: 3%;
+        padding-left: 6%;
+        font-size: 0.5rem;
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        overflow: hidden;
+        gap: 16px;
+
     }
+    .ProjectCapsuleText
+    {
+        font-family: "Schibsted Grotesk", serif;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    .CertificationsParent
+    {
+        margin-top: 25%;
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+        width: 100%;
+    }
+    .CertificationsShowcase {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .CertificationsCardParent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 325px;
+        height: 339px;
+        border-radius: 16px;
+        background-color: #F5FF9C; /* Default background color */
+      }
+      .CertificationsCardImage
+        {
+            width: 294px;
+            height: 223px;
+            background-color: #fff;
+            border-radius: 12px;
+            margin-top: 4%;
+        }
+        .CertificationsCardName
+        {
+            width: 294px;
+            display: flex;
+            justify-content: start;
+            margin-top: 4%;
+            color: #232323;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    .CertificationsCardDate
+    {
+        width: 294px;
+        display: flex;
+        justify-content: start;
+        margin-top: 4%;
+        color: #232323;
+        font-size: 1rem;
+        
+        font-weight: 500;
+    }
+      .ServicesCardParent
+      {
+          width: 320px;
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 32px;
+      }
+      .serviceCardTitle
+    {
+        margin-top: 6%;
+        width: 228px;
+        font-family: "Schibsted Grotesk", serif;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center
+    }  
+    .ServiceParent
+    {
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+    
+    }
+    .serviceCardButton
+    {
+        margin-top: 6%;
+        width: 70%;
+        height: 50px;
+        background-color: #232323;
+        color: #fff;
+        border-radius: 12px;
+        font-size: 1.5rem;
+        border: none;
+    }
+    .contactParent
+    {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+    
+    }
+    .contactDivButtonsDiv
+    {
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-width: 2115px) and (min-height: 1200px) {
     .home-Text-Container
     {
         height: 100vh;
@@ -1033,316 +1131,35 @@ display: none;
         flex-direction: column;
         justify-content: start;
         margin-left: 20%;
-        padding-top: 10%;
+        padding-top: 30%;
     }
-    .Apbhai
+    .AboutParent
     {
-        position: relative;
-        bottom: -75px;
-        z-index: 1;
-        height: 500px;
-        width: auto;
-        right: 100px;
+        margin: 0%;
     }
-    .bulbImage {
-        position: relative;
-            right: 200px;
-            z-index: 1;
-            height: 200px;
-            
-        }
-    .tumbsupImage
+    .ProjectParent
     {
-        height: 200px;
-    }
-    .ExperienceParent
-    {
+        
         display: flex;
         flex-direction: column;
-        height: 250vh;
-        width: 100%;
-        
-    }        
-    .ExperienceShowCase
-    {
-        position: relative;
-        margin-top: 5%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 170vh;
-        width: 100%;
-    }
-    .ExperienceShowCaseMiddleLine
-    {
-        height: 100%;
-        width: 3px;
-        background-color: #7E8EF1;
-    
-    }
-    .AboutDetails
-    {
-        margin-top: 5%;
         width: 100%;
         height: 100vh;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
     }
-    .aboutInfoLongNumber
+    .CertificationsShowcase
     {
-        margin-top: 2%;
-    }
-    .AboutInfo
-    {
-        gap: 32px;
-    }
-    .AboutInfoStarImage {
-        position: absolute;
-        top: 120px; /* Adjust to overlap */
-        right: 10px; /* Adjust to overlap */
-        z-index: 1;
-      }
-      .AboutInfoBicepImage
-      {
-        position: absolute;
-        top: 650px; /* Adjust to overlap */
-        right: 540px; /* Adjust to overlap */
-        z-index: 1;
-        height: 200px;
-      }
-      .ProjectParent
-      {
-        margin-top: 20%;
-      }
-      .ProjectShowcase
-    {
-        margin-left: 0%;
-        margin-top: 5%;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 24px;
-    }
-    .CertificationsParent {
-        margin-top: 30%;
-        height: 200vh;
-      }
-      .ServiceParent
-      {margin-top: 20%;
-        height: 200vh;
-      }
-      .contactDivButtonsDiv
-      {
-        width: 80%;
-      }
-
-}
-/* 1600px 900px* medium monitor*/
-
-    @media screen and (width: 1600px) and (height: 900px) {
-        .AboutInfoStarImage {
-            position: absolute;
-            top: 120px; /* Adjust to overlap */
-            right: 170px; /* Adjust to overlap */
-            z-index: 1;
-          }
-          .AboutInfoBicepImage
-          {
-            position: absolute;
-            top: 720px; /* Adjust to overlap */
-            right: 670px; /* Adjust to overlap */
-            z-index: 1;
-          }
-          .ServiceParent .CertificationsShowcase {
-            margin-left: 0%;
-            margin-top: 5%;
-            width: 60%;
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-          }
-          .contactParent
-            {
-                margin-top: 10%;
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                height: 100vh;
-                align-items: center;
-
-            }
-    }
-/*1920x1080 moniter*/
-@media screen and (min-width: 1919px) and (min-height: 1079px) {
-    
-    .Apbhai
-    {
-        position: relative;
-        bottom: -75px;
-        z-index: 1;
-        height: 1000px;
-        width: auto;
-    }
-    .AboutInfoBicepImage
-      {
-        position: absolute;
-        top: 820px; /* Adjust to overlap */
-        right: 790px; /* Adjust to overlap */
-        z-index: 1;
-      }
-    };
-    
-
-/*large moniter*/
-@media screen and (min-width: 2559px) and (min-height: 1439px) {
-    .home-Text-Container
-{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    margin-left: 20%;
-    padding-top: 20%;
-}
-        .Apbhai
-    {
-        position: relative;
-        bottom: -75px;
-        z-index: 1;
-        height: 1000px;
-        width: auto;
-    }
-
-    .purpleBar
-    {
-        position: absolute;
-       height: 100px;
-       width: 100%;
-       background-color: #7E8EF1;
-        bottom: 100px;
-        z-index: 2;
-    }
-            .AboutInfo
-        {
-            height: 696px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-        }
-    .AboutInfoStarImage {
-        position: absolute;
-        top: 430px; /* Adjust to overlap */
-        right: 520px; /* Adjust to overlap */
-        z-index: 1;
-      }
-      .AboutInfoBicepImage
-      {
-        position: absolute;
-        top: 1000px; /* Adjust to overlap */
-        right: 1020px; /* Adjust to overlap */
-        z-index: 1;
-      }
-      .ProjectParent
-      {
-        height: 90vh;
-      }
-      .ProjectShowcase
-      {
-        height: 100%;
-      }
-      .CertificationsShowcase {
-        margin-left: 20%;
-        margin-top: 5%;
         width: 60%;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 64px;
-      }
-      .ServiceParent .CertificationsShowcase {
-        margin-left: 0%;
-        margin-top: 5%;
-        width: 60%;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 64px;
-      }
-
-    .contactDiv {
-        margin-top: 6%;
-        width: 50%;
-        height: 628px;
-        background: linear-gradient(to right, #ABDF9E 0%, #BCE5B1 50%, #CDECC5 100%);
-        border-radius: 24px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        height: 50%;
+        
     }
-    .contactDivTitle
+    .contactDiv
     {
-        margin-top: 10%;
-        font-family: "Archivo", serif;
-        font-size: 4rem;
-        font-weight: 700;
-        font-style: italic;
+        height: 40%;
+    }
     
-    }
-    .contactDivButtonsDiv
-    {
-        margin-top: 10%;
-        width: 45%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .contactDivButtonEmail
-    {
-        width: 220px;
-        height: 65px;
-        border-radius: 32px;
-        border: none;
-        font-size: 1rem ;
-    }
-    .contactDivButtonEmail:hover
-    {
-        width: 220px;
-        height: 65px;
-        border-radius: 32px;
-        border: none;
-        font-size: 1rem ;
-        color: #fff;
-        background-color: #7E8EF1;
-    }
-    .contactDivButtonLinkedIn
-    {
-        width: 220px;
-        height: 65px;
-        border-radius: 32px;
-        border: none;
-        font-size: 1rem ;
-        color: #fff;
-        background-color: #7E8EF1;
-    }
-    .contactDivButtonLinkedIn:hover
-    {
-        width: 220px;
-        height: 65px;
-        border-radius: 32px;
-        border: none;
-        font-size: 1rem ;
-        color: #000;
-        background-color: #fff;
-    }
-
 }
+
+
+
 /* mobile*/
 @media screen and (max-width: 600px) {
     .navbar-logo
