@@ -901,6 +901,91 @@ display: none;
 
 /*small moniter*/
 @media screen and (max-width: 1600px) and (max-height: 900px) {
+    .TitleText
+    {
+        font-size: 3rem;
+    }
+    .descriptionText
+    {
+        font-size: 0.8rem;
+        width: 300px;
+    }
+    .TitleTextBadgeOne
+{
+    font-size: 0.75rem;
+    color: #000;
+    text-decoration: none;  
+    font-family: "Archivo", serif;
+    font-weight: 500;
+    background-color: #F5FF9C;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    position: relative;
+    top: 50px;
+    right: -200px;
+    transform: rotate(-15deg);
+    z-index: 2;
+    }
+    .TitleTextBadgeTwo
+    {
+        font-size: 0.75rem;
+        color: #fff;
+        text-decoration: none;
+        font-family: "Archivo", serif;
+        font-weight: 500;
+        background-color: #7E8EF1;
+        width: 140px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        position: relative;
+        top: 55px;
+        right: -200px;
+        transform: rotate(3deg);
+        z-index: 1;
+    }
+    .Contact-Button
+    {
+        font-size: 1rem;
+        color: #fff;
+        text-decoration: none;
+        font-family: "Schibsted Grotesk", serif;
+        font-weight: 6500;
+        background-color: #7E8EF1;
+        width: 127px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+
+    }
+
+    .Download-Button
+    {
+        font-size: 1rem;
+        color: #000;
+        text-decoration: none;
+        font-family: "Schibsted Grotesk", serif;
+        font-weight: 6500;
+        background-color: #F5FF9C;
+        width: 150px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
     .AboutmeImage
     {
         width: 375px;
@@ -948,6 +1033,7 @@ display: none;
         justify-content: center;
         align-items: center;
     }
+    
     .ProjectParent
     {
         margin-top: 15%;
@@ -1124,6 +1210,7 @@ display: none;
         width: 80%;
     }
 }
+
 
 
 @media screen and (min-width: 2115px) and (min-height: 1200px) {
