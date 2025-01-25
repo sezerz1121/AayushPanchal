@@ -128,6 +128,7 @@ const Experience = () => {
         </div>
       </div>
     </div>
+      <div className='purpleBar'></div>
        {/* Mobile Experience */}
        <div className="ExperienceMobile" id='Experiences'>
         <div className="ExperienceMobileTitle"><div>Experience</div></div>
