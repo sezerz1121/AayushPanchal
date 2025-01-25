@@ -1304,7 +1304,10 @@ display: none;
     .home-Text-Container
     {
         margin-left: 7%;
-        padding-top: 70%;
+        padding-top: 7%;
+        position: relative;
+        top: 10%;
+        right: 20%;
     }
 
     .TitleText
@@ -1336,6 +1339,17 @@ display: none;
         right: -120px;
         transform: rotate(-15deg);
         z-index: 2;
+    }
+    .home-Mobile
+    {
+        display: block;
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden;
     }
     .TitleTextBadgeTwo
     {
@@ -1398,20 +1412,32 @@ display: none;
         cursor: pointer;
 
     }
+    .ImageDiv
+    {
+        display: flex;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        justify-content: center;
+    }
+    .home-Text-Image
+    {
+        display: flex;
+        
+    }
     .Apbhai
     {
         position: relative;
-        bottom: -40%;
+        bottom: 6%;
         z-index: 1;
-        height: 50%;
+        height: 60%;
         width: auto;
-        right: 50%;
+        right: 0%;
     }
     .tumbsupImage {
         position: relative;
         height: 20%;
-        top: 20%;
-        left: -75%;
+        top: 10%;
     }
     .bulbImage {
         display:  none;
@@ -1429,16 +1455,12 @@ display: none;
         z-index: -1;
     }
         .home {
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        overflow: hidden;
+        display: none;
     }
     .purpleBar
     {
-        position: absolute;
+        position: relative;
+        top: 0%;
        height: 100px;
        width: 100%;
        background-color: #7E8EF1;
@@ -1782,7 +1804,7 @@ display: none;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 300vh;
+        height: 350vh;
         width: 100%;
     }
       .CertificationsTitle
@@ -2020,20 +2042,8 @@ display: none;
 
 
 @media only screen and (max-width: 330px) and (max-height: 800px) {
-    .home-Text-Container
-    {
-        margin-left: 70%;
-        padding-top: 70%;
-    }
-    .Apbhai
-    {
-        position: relative;
-        bottom: -40%;
-        z-index: 1;
-        height: 50%;
-        width: auto;
-        right: 50%;
-    }
+    
+   
     
     .ExperienceMobileShowcase
     {
