@@ -118,6 +118,49 @@ const Home = () => {
         </div>
         <div className='purpleBar'></div>
       </div>
+
+      <div className='home-Mobile'>
+        <div className="home-Text-Container">
+          <div className="Title-Text-Div">
+            <div ref={badgeOneRef} className="TitleTextBadgeOne">
+              Data Analyst
+            </div>
+            <div ref={badgeTwoRef} className="TitleTextBadgeTwo">
+              1+ year experience
+            </div>
+            <div className="TitleText One">AAYUSH </div>
+            <div className="TitleText Two">‎‎ ‎ ‎ PANCHAL</div>
+          </div>
+          <div className="descriptionText">
+            Hi, I'm Aayush Panchal – a Data Analyst skilled in Python, SQL, and
+            AI/ML. I specialize in turning data into actionable insights,
+            crafting impactful dashboards, and leveraging cloud technologies to
+            drive smarter decisions.
+          </div>
+          <div className="buttonContainer">
+            <div ref={contactButtonRef} className="Contact-Button">
+              Contact
+            </div>
+            <div ref={downloadButtonRef} className="Download-Button">
+              Download CV
+            </div>
+          </div>
+        </div>
+        <div className="home-Text-Image">
+          
+          <div className='ImageDiv'> 
+         <img
+            ref={thumbsupImageRef}
+            className="tumbsupImage"
+            src="./image 29.png"
+            alt="thumbsup"
+          />
+          <img className='Apbhai'src="./ApBhaiNewImage.png" alt="main" />
+          </div>
+          
+         
+        </div>
+      </div>
       
     </>
   );
